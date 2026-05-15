@@ -27,6 +27,11 @@ const Auth = () => {
 
   const navigate = useNavigate();
 
+  const demoCredentials = {
+    email: "demouser@gmail.com",
+    password: "demouser123",
+  };
+
   const [image, setImage] = useState();
   const imageInputRef = useRef(null);
   const selectImage = () => {
@@ -143,6 +148,17 @@ const Auth = () => {
         </header>
 
         <form className="auth-form" onSubmit={handleSubmit}>
+          {!isSignup && (
+            <section className="demo-credentials" aria-label="Demo credentials">
+              <p>
+                Demo email: <span>{demoCredentials.email}</span>
+              </p>
+              <p>
+                Demo password: <span>{demoCredentials.password}</span>
+              </p>
+            </section>
+          )}
+
           {isSignup && (
             <section className="image-username__container">
               <div className="image__container" onClick={selectImage}>

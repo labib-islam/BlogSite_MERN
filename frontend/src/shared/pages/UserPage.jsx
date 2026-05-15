@@ -60,7 +60,7 @@ const UserPage = () => {
 
   const handleDelete = async () => {
     if (role === "test-admin") {
-      toast.error("This feature is disabled for test admin accounts.");
+      toast.error("This feature is disabled for demo admin accounts.");
       return;
     }
     try {

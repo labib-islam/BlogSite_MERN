@@ -47,6 +47,23 @@
   gap: calc(var(--gap) * 1.5);
 }
 
+.demo-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px;
+  border: 1px dashed rgba(128, 128, 128, 0.45);
+  border-radius: calc(var(--border-radius) / 2);
+  background-color: rgba(31, 138, 120, 0.06);
+  color: var(--text-gray);
+  font-size: 0.8rem;
+}
+
+.demo-credentials span {
+  font-weight: 500;
+  color: var(--primary-green);
+}
+
 .auth-form .input__container {
   position: relative;
 }

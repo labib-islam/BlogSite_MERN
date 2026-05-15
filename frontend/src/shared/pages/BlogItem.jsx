@@ -52,7 +52,7 @@ const BlogItem = () => {
 
   const handleStatus = async (status) => {
     if (role === "test-admin") {
-      toast.error("This feature is disabled for test admin accounts.");
+      toast.error("This feature is disabled for demo admin accounts.");
       return;
     }
     try {
@@ -73,7 +73,7 @@ const BlogItem = () => {
     if (e) e.preventDefault();
 
     if (role === "test-admin") {
-      toast.error("This feature is disabled for test admin accounts.");
+      toast.error("This feature is disabled for demo admin accounts.");
       return;
     }
 
