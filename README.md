@@ -2,7 +2,7 @@
 
 BlogSite is a blog app built with the MERN stack (MongoDB, Express, React, Node). It lets users create and read posts, organize them by category, and includes an admin portal for managing content and users.
 
-The editor for writing blogs works a bit like Notion, so writing posts with blocks, headings, lists and tables is easier. The backend is hosted on Render and the frontend is published to GitHub Pages.
+The editor for writing blogs works a bit like Notion, so writing posts with blocks, headings, lists and tables is easier. The backend is hosted on Railway and the frontend is published to GitHub Pages.
 
 ## What it does
 - Create, edit, and read blog posts
